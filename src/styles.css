@@ -1,0 +1,18 @@
+/*styles.css para Instagram POST*/
+body {
+    background-color: lightgrey;
+}
+.post {
+    position: static;
+    height: 750px;
+    width: 35%;
+    margin: 0px auto;
+    justify-content: center;
+    background: white;
+}
+.post-header {
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    display:inline-block;
+}
