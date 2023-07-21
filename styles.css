@@ -38,7 +38,18 @@ body {
     padding: 25px;
 }
 .post-img {
-    height: 55%;
+    height: 50%;
     background-color: blue;
     width: 100%;
+}
+.post-footer {
+    height: 290px;
+    width: 100%;
+    background-color: aquamarine;
+    display: inline-block;
+}
+.post-icons {
+    height: 70px;
+    width: 100%;
+    background-color: brown;
 }
