@@ -38,23 +38,29 @@ body {
     padding: 25px;
 }
 .post-img {
-    height: 50%;
-    background-color: blue;
+    height: 55%;
+    background-image: url("https://wallpapercave.com/wp/wp2651996.jpg");
+    background-size:cover;
     width: 100%;
 }
 .post-footer {
-    height: 290px;
+    height: 250px;
     width: 100%;
     background-color: aquamarine;
-    display: inline-block;
+    display: block;
 }
 .post-icons {
     height: 70px;
     width: 100%;
     background-color: brown;
+    margin-top: 2px;
+    display: block;
 }
 .comments {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     font-size: 15px;
-    padding: 20px;
+    padding: 10px 50px 20px 20px;
+    width: 90%;
+    height: fit-content;
 }
