@@ -28,9 +28,11 @@ body {
     display: block;
 }
 .post-header p {
-    line-height: 14px;
+    line-height: 16px;
     font-size: 14px;
     padding-top: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 .fa-ellipsis-vertical {
     font-size: 30px;
@@ -57,10 +59,11 @@ body {
     display: block;
 }
 .comments {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     text-align: justify;
     font-size: 15px;
-    padding: 10px 50px 20px 20px;
+    padding: 0px 20px 20px 20px;
     width: 92%;
     height: fit-content;
 }
