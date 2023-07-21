@@ -5,21 +5,21 @@ body {
 .post {
     position: static;
     height: 750px;
-    width: 35%;
+    width: 33%;
     margin: 0px auto;
     justify-content: center;
     background: white;
 }
 .post-header {
     background-color: green;
-    height: 100px;
+    height: 80px;
     width: 100%;
     display:inline-block;
 }
 .fa-html5 {
-    font-size: 50px;
+    font-size: 30px;
     float: left;
-    padding: 25px 15px 25px 25px;
+    padding: 25px 15px 25px 20px;
 }
 .text-header {
     float: left;
@@ -28,12 +28,17 @@ body {
     display: block;
 }
 .post-header p {
-    line-height: 20px;
-    font-size: 15px;
-    padding-top: 15px;
+    line-height: 14px;
+    font-size: 14px;
+    padding-top: 12px;
 }
 .fa-ellipsis-vertical {
-    font-size: 50px;
+    font-size: 30px;
     float: right;
     padding: 25px;
+}
+.post-img {
+    height: 55%;
+    background-color: blue;
+    width: 100%;
 }
