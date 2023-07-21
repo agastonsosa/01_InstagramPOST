@@ -16,3 +16,24 @@ body {
     width: 100%;
     display:inline-block;
 }
+.fa-html5 {
+    font-size: 50px;
+    float: left;
+    padding: 25px 15px 25px 25px;
+}
+.text-header {
+    float: left;
+    height: fit-content;
+    width: fit-content;
+    display: block;
+}
+.post-header p {
+    line-height: 20px;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.fa-ellipsis-vertical {
+    font-size: 50px;
+    float: right;
+    padding: 25px;
+}
