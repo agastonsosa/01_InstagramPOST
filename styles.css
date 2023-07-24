@@ -2,6 +2,7 @@
 /*ESTRUCTURA*/
 body {
     background-color: lightgrey;
+    overflow: hidden;
 }
 .post {
     position: static;
