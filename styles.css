@@ -1,117 +1,135 @@
 /*styles.css para Instagram POST*/
 /*ESTRUCTURA*/
 body {
-    background-color: lightgrey;
-    overflow: hidden;
+  background-color: lightgrey;
+  overflow: hidden;
 }
 .post {
-    position: static;
-    height: 750px;
-    width: 32%;
-    margin: 0px auto;
-    justify-content: center;
-    background: white;
+  position: static;
+  height: 750px;
+  width: 32%;
+  margin: 0px auto;
+  justify-content: center;
+  background: white;
 }
 .post-header {
-    background-color: white;
-    height: 80px;
-    width: 100%;
-    display:inline-block;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  display: inline-block;
 }
 .text-header {
-    float: left;
-    height: fit-content;
-    width: fit-content;
-    display: block;
+  float: left;
+  display: flex;
+  flex-direction: column;
 }
-.post-header p {
-    line-height: 16px;
-    font-size: 14px;
-    padding-top: 12px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+.text-title {
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.text-title p {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 14px;
+  padding-top: 5px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight:800;
+}
+.text-subtitle p {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 16px;
+  font-size: 14px;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
 }
 .post-img {
-    height: 55%;
-    background-image: url("https://wallpapercave.com/wp/wp2651996.jpg");
-    background-size:cover;
-    width: 100%;
+  height: 55%;
+  background-image: url("https://wallpapercave.com/wp/wp2651996.jpg");
+  background-size: cover;
+  width: 100%;
 }
 .post-footer {
-    height: 250px;
-    width: 100%;
-    background-color: white;
-    display: block;
+  height: 250px;
+  width: 100%;
+  background-color: white;
+  display: block;
 }
 .post-icons {
-    height: 70px;
-    width: 100%;
-    background-color: white;
-    margin-top: 2px;
-    display: block;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  margin-top: 2px;
+  display: block;
 }
 /*Coments*/
 .comments {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    text-align: justify;
-    font-size: 15px;
-    padding: 0px 20px 20px 30px;
-    width: 88%;
-    height: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 15px;
+  padding: 0px 20px 20px 30px;
+  width: 88%;
+  height: fit-content;
 }
 /*Icons*/
 .fa-heart {
-    font-size: 30px;
-    float: left;
-    padding: 20px 5px 20px 25px;  
+  font-size: 30px;
+  float: left;
+  padding: 20px 5px 20px 25px;
 }
-.fa-comment, .fa-paper-plane {
-    font-size: 30px;
-    float: left;
-    padding: 20px 0px 20px 5px;    
-} 
+.fa-comment,
+.fa-paper-plane {
+  font-size: 30px;
+  float: left;
+  padding: 20px 0px 20px 5px;
+}
 .fa-bookmark {
-    font-size: 30px;
-    float: right;
-    padding: 20px 30px 20px 10px;  
+  font-size: 30px;
+  float: right;
+  padding: 20px 30px 20px 10px;
 }
 .fa-ellipsis-vertical {
-    font-size: 30px;
-    float: right;
-    padding: 25px;
+  font-size: 30px;
+  float: right;
+  padding: 25px;
 }
 .fa-html5 {
-    font-size: 30px;
-    float: left;
-    padding: 25px 10px 25px 20px;
+  font-size: 30px;
+  float: left;
+  padding: 25px 10px 25px 20px;
 }
 /*Buttons*/
-.btn-like, .btn-comment, .btn-share { 
-    border: none;
-    color: black; 
-    cursor: pointer;
-    float: left;
-    background-color: white;
-  }
-.btn-bookmark { 
-    border: none;
-    color: black; 
-    cursor: pointer;
-    float: right;
-    background-color: white;
-      }
+.btn-like,
+.btn-comment,
+.btn-share {
+  border: none;
+  color: black;
+  cursor: pointer;
+  float: left;
+  background-color: white;
+}
+.btn-bookmark {
+  border: none;
+  color: black;
+  cursor: pointer;
+  float: right;
+  background-color: white;
+}
 .btn-html {
-    border: none;
-    color: black; 
-    cursor: pointer;
-    background-color: white;
-    float: left; 
+  border: none;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  float: left;
 }
 .btn-3dots {
-    border: none;
-    color: black; 
-    cursor: pointer;
-    background-color: white;
-    float: right;  
+  border: none;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  float: right;
 }
